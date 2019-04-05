@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider</title>
+	
+	<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="owl-carousel">
+			<div><img src="https://cimages.prvd.com/is/image/ProvideCommerce/PF_18_B610_LAY_SHP_V1?$MPFCProductImage$" alt=""></div>
+			<div><img src="https://res.cloudinary.com/prestige-gifting/image/fetch/fl_progressive,q_95,e_sharpen:50,w_480/e_saturation:05/https://www.prestigeflowers.co.uk/images/NF1018.jpg" alt=""></div>
+			<div><img src="https://i9.fnp.com/images/pr/uae/l/i-love-you-flower-arrangement_1.jpg" alt=""></div>
+			<div><img src="https://media.brides.com/photos/5994759d8c2b365d5c23c0c5/1:1/w_767/A.P.%2520Bio%2520rose%2520detail.png" alt=""></div>
+			<div><img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt=""></div>
+			<div><img src="https://res.cloudinary.com/prestige-gifting/image/fetch/fl_progressive,q_95,e_sharpen:50,w_480/e_saturation:05/https://www.prestigeflowers.co.uk/images/NF1018.jpg" alt=""></div>
+			<div><img src="https://i9.fnp.com/images/pr/uae/l/i-love-you-flower-arrangement_1.jpg" alt=""></div>
+			<div><img src="https://res.cloudinary.com/prestige-gifting/image/fetch/fl_progressive,q_95,e_sharpen:50,w_480/e_saturation:05/https://www.prestigeflowers.co.uk/images/NF1018.jpg" alt=""></div>
+			<div><img src="https://i9.fnp.com/images/pr/uae/l/i-love-you-flower-arrangement_1.jpg" alt=""></div>
+		</div>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+		    $(".owl-carousel").owlCarousel({
+		        loop: true,
+		        margin: 10,
+				nav: true,
+				items: 5,
+				dots: false,
+				responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:3
+			        },
+			        1000:{
+			            items:5
+			        }
+			    }
+		    });
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.wrapper {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.wrapper img {
+	width: 188px;
+	height: 188px;
+}
+
+body {
+	background: rgba(0, 0, 0, 0.2);	
+}
+
+.owl-nav {
+	position: absolute;
+	left: 0; 
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+.owl-prev {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 50pt !important;
+	background: rgba(0, 0, 0, 0.5) !important;	
+}
+
+.owl-next {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 50pt !important;
+	background: rgba(0, 0, 0, 0.5) !important;	
+}
